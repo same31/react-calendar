@@ -43,7 +43,7 @@ declare module "react-calendar" {
     showWeekNumbers?: boolean;
     tileClassName?: string | string[] | ((props: CalendarTileProperties) => string | string[] | null);
     tileContent?: JSX.Element | ((props: CalendarTileProperties) => JSX.Element | null);
-    tileDisabled?: (props: CalendarTileProperties) => boolean;
+    tileDisabled?: (props: CalendarTileProperties & {activeStartDate: Date}) => boolean;
     value?: Date | Date[];
     view?: Detail;
   }
