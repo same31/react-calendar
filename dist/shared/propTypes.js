@@ -108,7 +108,7 @@ var tileGroupProps = exports.tileGroupProps = {
 };
 
 var tileProps = exports.tileProps = {
-  activeStartDate: _propTypes2.default.instanceOf(Date).isRequired,
+  activeStartDate: _propTypes2.default.instanceOf(Date),
   classes: _propTypes2.default.arrayOf(_propTypes2.default.string).isRequired,
   date: _propTypes2.default.instanceOf(Date).isRequired,
   maxDate: isMaxDate,
