@@ -46,9 +46,7 @@ var Years = function (_PureComponent) {
   _createClass(Years, [{
     key: 'render',
     value: function render() {
-      var _props = this.props,
-          activeStartDate = _props.activeStartDate,
-          otherProps = _objectWithoutProperties(_props, ['activeStartDate']);
+      var otherProps = _objectWithoutProperties(this.props, []);
 
       return _react2.default.createElement(_TileGroup2.default, _extends({}, otherProps, {
         className: 'react-calendar__decade-view__years',

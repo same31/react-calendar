@@ -60,9 +60,7 @@ var Months = function (_PureComponent) {
     value: function render() {
       var _this2 = this;
 
-      var _props = this.props,
-          activeStartDate = _props.activeStartDate,
-          otherProps = _objectWithoutProperties(_props, ['activeStartDate']);
+      var otherProps = _objectWithoutProperties(this.props, []);
 
       return _react2.default.createElement(_TileGroup2.default, _extends({}, otherProps, {
         className: 'react-calendar__year-view__months',
